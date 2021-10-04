@@ -1,0 +1,78 @@
+{
+	"devToken": "",
+	"sentryDsn": "",
+	"bot": {
+		"dbPrefix": "im",
+		"type": "regular",
+		"embedColor": "00cbeb",
+		"activity": {
+			"status": "online",
+			"message": "invitelogger.me !",
+			"type": "streaming",
+			"url": "https://www.twitch.tv/arftnl"
+		},
+		"ids": {
+			"regular": "",
+			"pro": ""
+		},
+		"links": {
+			"add": "https://invlogger.chaun14.fr/bot",
+			"support": "https://discord.gg/zDSBpDu",
+			"website": "https://classic.invitelogger.me/",
+			"patreon": "https://paypal.me/chaun14"
+		},
+		"dm": {
+			"guild": "",
+			"channel": ""
+		},
+		"apiAuth": {
+			"username": "",
+			"password": ""
+		},
+		"dblToken": null,
+		"music": {
+			"pollyUrl": ""
+		}
+	},
+	"rabbitmq": {
+		"hostname": "localhost",
+		"username": "guest",
+		"password": "guest",
+		"prefix": ""
+	},
+	"socketio": {
+		"url": "http://localhost:2000",
+		"key": "your socket key"
+	},
+	"databases": [
+		{
+			"host": "localhost",
+			"port": 3306,
+			"user": "root",
+			"password": "",
+			"range": {
+				"from": 0,
+				"to": 0
+			}
+		},
+		{
+			"host": "localhost",
+			"port": 3306,
+			"user": "root",
+			"password": "",
+			"range": {
+				"from": 1,
+				"to": 1
+			}
+		}
+	],
+	"controller": {
+		"botToken": "Bot controller token, not your main bot token pls",
+		"shardCount": 2,
+		"owners": ["417977361011572747", "302901933419790347", "your id in this array"],
+		"incidentChannel": "id of a log channel",
+		"firstDebugPort": 40000,
+		"socket": false,
+		"autoRestart": true
+	}
+}
